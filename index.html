@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=""><!-- description en 160 caractères max-->
-    <title></title>
+    <title>Stats Preview Cart Component - Front End Mentor</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -13,24 +13,34 @@
 </head>
 
 <body>
-    <div class="container-fluid d-flex align-items-center">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-xl-10 mx-auto">
-                <div class="card text-center text-white mx-3 my-4 d-md-flex flex-md-row">
-                    
-                        <img src="images/image-header-mobile.jpg" alt="photo profil" class="d-xl-none">
-                        <img src="images/image-header-desktop.jpg" alt="photo profil" class="d-none d-xl-block">
-                    
-                    <div class="col-lg-6">
-                        <h1 class="mx-3 mb-3">Get <span class="insights">insights</span> that help your business grow.</h1>
-                    <p class="description mx-4 mb-5">Discover the benefits of data analytics and make better decisions regarding revenue, customer
-                        experience, and overall efficiency.</p>
-                    <p class="numbers mb-0">10k+</p>
-                    <p class="names">COMPANIES</p>
-                    <p class="numbers mb-0">314</p>
-                    <p class="names">TEMPLATES</p>
-                    <p class="numbers mb-0">12M+</p>
-                    <p class="names">QUERIES</p>
+            <div class="col-12 col-xl-8 mx-auto">
+                <div class="card text-white text-center text-lg-start mx-3 my-4 d-md-flex flex-md-row-reverse">
+
+                    <img src="images/image-header-mobile.jpg" alt="photo profil" class="d-xl-none">
+                    <img src="images/image-header-desktop.jpg" alt="photo profil" class="img-fluid col-xl-6 d-none d-xl-block">
+
+                    <div class="text d-flex flex-column justify-content-center ps-lg-4 pe-lg-5">
+                        <h1 class="mx-3 mb-3 pt-4 fs-xl-1">Get <span class="insights">insights</span> that help your business grow.
+                        </h1>
+                        <p class="description mx-3 mb-5 pe-lg-5">Discover the benefits of data analytics and make better
+                            decisions regarding revenue, customer
+                            experience, and overall efficiency.</p>
+                        <div class="d-md-flex pt-3">
+                            <div>
+                                <p class="numbers mb-0 mx-3">10k+</p>
+                                <p class="names mx-3">COMPANIES</p>
+                            </div>
+                            <div>
+                                <p class="numbers mb-0 mx-3">314</p>
+                                <p class="names mx-3">TEMPLATES</p>
+                            </div>
+                            <div>
+                                <p class="numbers mb-0 mx-3">12M+</p>
+                                <p class="names mx-3">QUERIES</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
